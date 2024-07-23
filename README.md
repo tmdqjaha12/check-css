@@ -56,3 +56,7 @@ npx browserslist@latest --update-db
 ## 브라우저리스트 체크 버전
 
 npx browserslist
+
+## 참고사이트
+
+- caniuse: https://caniuse.com/?search=text-align
