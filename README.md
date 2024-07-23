@@ -60,3 +60,8 @@ npx browserslist
 ## 참고사이트
 
 - caniuse: https://caniuse.com/?search=text-align
+
+## 검사 결과 파일
+
+- ...only partially supported by: 부분지원
+- ...not supported by: 미지원
