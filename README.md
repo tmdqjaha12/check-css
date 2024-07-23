@@ -1,4 +1,4 @@
-- node 18.16.0
+- node 20.12.2
 
 ```bash
 $npm init -y
@@ -36,7 +36,7 @@ not Explorer > 0 # Internet Explorer이 모든 버전을 지원 목록에서 제
 
 ---
 
-테스트 결과 예시
+## 테스트 결과 예시
 
 CSS Feature: css-resize
 Message: C:\Users\rs02\Desktop\jodal\styles\reset.css:219:3: CSS resize property not supported by: Safari on iOS (16.6-16.7,17.4,17.5), Opera Mini (all), KaiOS Browser (2.5) (css-resize)
@@ -46,3 +46,11 @@ Usage: resize: none
 검사css resize
 reset.css파일 219번째 줄 3번째 열에서 사용
 특정 브라우저에서 지원되지 않음( Safari IOS16.6~17.5, Opera Mini모든버전, KaiOS Browser2.5)
+
+## 브라우저리스트 데이터베이스 업데이트
+
+npx browserslist@latest --update-db
+
+## 브라우저리스트 체크 버전
+
+npx browserslist
