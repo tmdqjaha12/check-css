@@ -32,6 +32,8 @@ Android >= 5 # 모바일 브라우저(Android 5 이상)
 > 1% in KR # 한국에서 점유율이 1% 이상인 브라우저
 Firefox ESR # Firefox Extended Support Release(확장 지원 릴리스)
 not Explorer > 0 # Internet Explorer이 모든 버전을 지원 목록에서 제외하겠다
+ios_saf >= 15.7 and ios_saf <= 17
+and_chr >= 91
 ```
 
 ---
